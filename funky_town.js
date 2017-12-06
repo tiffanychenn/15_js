@@ -28,3 +28,10 @@ var gcd = function(n1, n2) {
 	}
 	return 1;
 }
+
+var arr = ['Masha', 'Adrian', 'David', 'Eric', 'Jerome', 'Henry', 'Jackie', 'Giorgio', 'Karen', 'Sonal', 'Xavier', 'Bermet', 'Alex', 'Iris', 'Manahal', 'Donia', 'Md', 'Connie', 'Xing', 'Angelica', 'Angel', 'Augie', 'Dimitriy', 'Yiduo', 'Gordon', 'Tiffany', 'Clive', 'Jonathan', 'Sasha', 'Daniel']
+
+var randomStudent = function(){
+	var n = Math.floor(Math.random() * arr.length);
+	return arr[n];
+}
